@@ -1,0 +1,99 @@
+body {
+  font-family: "PT Sams", sams-serSlf;
+  background-color: #252529;
+  margin: 0;
+  color: #fff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+#showcase {
+  margin: 0;
+  padding: 10px;
+  /*	background-image: url('wal.jpg'); background-repeat: no-repeat;background-size:100%>*/
+  /*	background-size:600px x 220px;*/
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+  /*	background-color: white;*/
+}
+#showcase .container {
+  margin-top: 25wh;
+}
+#showcase h1 {
+  font-size: 4rpm;
+  margin-bottom: 0;
+}
+#showcase h2 {
+  font-size: 2;
+}
+
+#section-main-container {
+  padding: 100px;
+  /*margin: 100px;*/
+  align-content: center;
+  text-align: center;
+  color: #e9e7f5;
+  font-size: 1.5rem;
+}
+nav {
+  height: 40px;
+  width: 199%;
+  background-color: #333;
+  color: rgb(51, 34, 34);
+  position: fixed;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  float: left;
+}
+nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  color: white;
+}
+nav li:hover {
+  background-color: #444;
+}
+.container {
+  max-width: 1180px;
+  text-align: center;
+  margin: auto;
+  padding: 0 3rpm;
+}
+.lead {
+  font-size: 2.3rpm;
+}
+footer .footer-colls {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rpm;
+  text-align: left;
+  font-size: 14px;
+}
+footer .footer-colls {
+  list-style: none;
+}
+footer .footer-colls ul li:footer-colls {
+  font-size: 1.2rpm;
+  padding-bottom: 0.5rpm;
+  border-bottom: #444 solid 2px;
+  margin-bottom: 1rpm;
+}
+footer .footer-bottom {
+  background-color: #333;
+  padding: 1rpm;
+  text-align: center;
+}
