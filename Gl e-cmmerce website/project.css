@@ -1,0 +1,239 @@
+body {
+  font-family: "PT Sams", sams-serSlf;
+  background-color: #252529;
+  margin: 0;
+  color: hsl(0, 19%, 95%);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+#showcase {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#showcase .container {
+  margin-top: 10vh;
+  color: #ececf0;
+}
+#showcase h1 {
+  font-size: 22rem; /*root element font size*/
+  margin-bottom: 0;
+  color: #f1f1f6;
+}
+#showcase h2 {
+  font-size: 3rem;
+  color: #f0f0f5;
+}
+
+/* #section-main {
+  padding: 100px;
+  margin: 2000px;
+  align-content: center;
+  text-align: center;
+  color: #010110;
+} */
+.se {
+  padding: 100px;
+  margin: 100px;
+  align-content: center;
+  text-align: center;
+  color: #101012;
+  font-size: 1.5rem;
+}
+/* .se {
+  max-width: 1180px;
+  text-align: center;
+  margin: auto;
+  padding: 0 3rpm; 
+}*/
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: #333;
+  color: rgb(51, 34, 34);
+  position: fixed;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  float: left;
+}
+nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  color: white;
+}
+nav li:hover {
+  background-color: #444;
+}
+.container {
+  max-width: 1180px;
+  text-align: center;
+  margin: auto;
+  padding: 0 3rpm;
+}
+.lead {
+  font-size: 1.3rpm;
+}
+footer .footer-colls {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rpm;
+  text-align: left;
+  font-size: 14px;
+}
+footer .footer-colls {
+  list-style: none;
+}
+footer .footer-colls ul li:footer-colls {
+  font-size: 1.2rpm;
+  padding-bottom: 0.5rpm;
+  border-bottom: #444 solid 2px;
+  margin-bottom: 1rpm;
+}
+footer .footer-bottom {
+  background-color: #333;
+  padding: 1rpm;
+  text-align: center;
+}
+.section {
+  padding: 2rem 0;
+}
+.section-head {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.section h3 {
+  font-size: 2rem;
+}
+:root {
+  --primary-color: #b90415;
+  --primary-color-hover: #d3071b;
+  --secondary-color: #103063;
+  --secondary-color-hover: #143f85;
+  --liht-coolor: #f4f4f4;
+}
+.btn {
+  padding: 1ewm;
+  color: #fff;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+}
+.btn-primary:hover {
+  background: var(var(--primary-color-hover));
+}
+.btn-secondary {
+  background: var(--secondary-color);
+}
+.btn-secondary:hover {
+  background: var(--secondary-color-hover);
+}
+/*example 
+.text-primary{
+	color:var(--primary-color);
+}
+.text-seondary{
+	color:var(--secondary-color)
+}*/
+.text-light {
+  color: var(--liht-coolor);
+}
+
+.bg-light {
+  background: var(--liht-coolor);
+  color: #333;
+}
+.mb {
+  margin-bottom: 1rem;
+}
+.mt {
+  margin-top: 1rem;
+}
+
+/* this is for indore */
+
+.small-container {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+.col-4 {
+  flex: basis 25%;
+  padding: 50px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.col-4 img {
+  width: 100%;
+}
+
+.col-4 :hover {
+  transform: translateY(-50px);
+}
+.col-4 p {
+  font-size: 14px;
+}
+
+.checked {
+  color: #ff523b;
+}
+
+h4 {
+  color: #fff;
+  font-weight: normal;
+}
+
+.page-btn span :hover {
+  background: #ff523b;
+  color: #ffffff;
+}
+
+.page-btn span {
+  display: inline-block;
+  border: 1px solid #ff523b;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.page-btn {
+  margin: 0 40px 80px;
+}
+select:focus {
+  outline: none;
+}
+select {
+  border: 1px solid #ff523b;
+}
+.row-2 {
+  justify-content: space-between;
+  margin: 100px auto 50px;
+  font-size: large;
+}
