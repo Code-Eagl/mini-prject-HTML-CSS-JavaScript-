@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey</h1>
+    <p id="description">
+      This is a survey about your satisfaction with our products and services.
+    </p>
+    <form id="survey-form">
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your name"
+        required
+      /><br />
+      <label id="name-label">Name</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Your email address"
+        required
+      /><br />
+      <label id="email-label">Email</label>
+      <input
+        type="number"
+        id="number"
+        name="number"
+        min="1"
+        max="100"
+        placeholder="Your age"
+      /><br />
+      <label id="number-label">Age</label>
+      <select id="dropdown" name="dropdown">
+        <br />
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+      </select>
+      <input type="radio" name="gender" value="male" /> Male
+      <input type="radio" name="gender" value="female" /> Female<br />
+      <input type="checkbox" name="interests" value="sports" /> Sports
+      <input type="checkbox" name="interests" value="music" /> Music
+      <input type="checkbox" name="interests" value="movies" /> Movies<br />
+      <textarea name="comments" placeholder="Your comments"></textarea><br />
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
