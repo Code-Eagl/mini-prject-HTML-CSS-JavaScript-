@@ -1,0 +1,42 @@
+#top {
+  background-image: linear-gradient(62deg, #e8eef4, #e8e9ed);
+}
+
+/*for checkout page*/
+.bg_checkout_1 {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #94b3d3, #6a88d4);
+}
+
+/*for product layout design*/
+.single_product {
+  background-color: rgb(241, 240, 240);
+}
+.product_img {
+  position: relative;
+}
+.product_img .new_product {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+/*for feature part*/
+.feature {
+  background-color: rgb(0, 121, 230);
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 121, 230, 1) 10%,
+    rgba(0, 250, 255, 1) 99%
+  );
+}
+.footer_section {
+  border-top: 3px solid #007bff;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: rgb(47, 8, 119);
+  background-color: transparent;
+  text-decoration: underline;
+}
